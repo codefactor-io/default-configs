@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "length-zero-no-unit": true,
+    "no-invalid-double-slash-comments": true,
+    "no-extra-semicolons": true,
+    "no-duplicate-selectors": true,
+    "font-family-no-duplicate-names": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-block-no-duplicate-properties": [true, {
+        "ignore": [ "consecutive-duplicates" ]
+      }],
+    "comment-no-empty": true,
+    "color-no-invalid-hex": true,
+    "block-no-empty": true,
+    "shorthand-property-no-redundant-values": true,
+    "no-eol-whitespace": [true, {
+        "ignore": [ "empty-lines" ]
+      }],
+    "keyframe-declaration-no-important": true,
+    "no-duplicate-at-import-rules": true
+  }
+}

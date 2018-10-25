@@ -1,0 +1,195 @@
+AllCops:
+  DisabledByDefault: true
+
+Style/WhileUntilDo:
+  Enabled: true
+
+Style/UnneededInterpolation:
+  Enabled: true
+
+Style/TrailingUnderscoreVariable:
+  Enabled: true
+
+Style/RedundantFreeze:
+  Enabled: true
+
+Style/RedundantException:
+  Enabled: true
+
+Style/RedundantConditional:
+  Enabled: true
+  
+Style/RedundantBegin:
+  Enabled: true
+  
+Style/OptionalArguments:
+  Enabled: true
+  
+Style/IdenticalConditionalBranches:
+  Enabled: true
+
+Style/CharacterLiteral:
+  Enabled: true
+  
+Layout/TrailingWhitespace:
+  Enabled: true
+  
+Lint/UselessSetterCall:
+  Enabled: true
+  
+Lint/UselessElseWithoutRescue:
+  Enabled: true
+  
+Lint/UselessComparison:
+  Enabled: true
+
+# https://github.com/bbatsov/rubocop/issues/3591
+Lint/UselessAssignment:
+  Enabled: true
+  
+Lint/UriRegexp:
+  Enabled: true
+  
+Lint/UriEscapeUnescape:
+  Enabled: true
+
+Lint/UnreachableCode:
+  Enabled: true
+  
+Lint/UnneededSplatExpansion:
+  Enabled: true
+  
+Lint/StringConversionInInterpolation:
+  Enabled: true
+  
+Lint/SafeNavigationChain:
+  Enabled: true
+  
+Lint/ReturnInVoidContext:
+  Enabled: true
+
+Lint/RescueType:
+  Enabled: true
+  
+Lint/RandOne:
+  Enabled: true
+  
+Lint/NextWithoutAccumulator:
+  Enabled: true
+  
+Lint/MultipleCompare:
+  Enabled: true
+  
+Lint/LiteralAsCondition:
+  Enabled: true
+
+Lint/LiteralInInterpolation:
+  Enabled: true
+
+Lint/IneffectiveAccessModifier:
+  Enabled: true
+
+Lint/HandleExceptions:
+  Enabled: true
+
+Lint/FormatParameterMismatch:
+  Enabled: true
+
+Lint/EnsureReturn:
+  Enabled: true
+
+Lint/EmptyWhen:
+  Enabled: true  
+
+Lint/EmptyEnsure:
+  Enabled: true
+
+Lint/EmptyExpression:
+  Enabled: true
+
+Lint/EmptyInterpolation:
+  Enabled: true
+
+Lint/EachWithObjectArgument:
+  Enabled: true
+
+Lint/DuplicateCaseCondition:
+  Enabled: true
+
+Lint/DuplicateMethods:
+  Enabled: true
+
+Lint/DuplicatedKey:
+  Enabled: true
+
+Lint/DeprecatedClassMethods:
+  Enabled: true
+
+Lint/CircularArgumentReference:
+  Enabled: true
+
+Lint/AmbiguousOperator:
+  Enabled: true
+
+Lint/RedundantWithObject:
+  Enabled: true
+
+Lint/BigDecimalNew:
+  Enabled: true
+
+Performance/Casecmp:
+  Enabled: true
+
+Performance/Caller:
+  Enabled: true
+
+Performance/UriDefaultParser:
+  Enabled: true
+
+Performance/StringReplacement:
+  Enabled: true
+
+Performance/StartWith:
+  Enabled: true
+
+Performance/EndWith:
+  Enabled: true  
+
+Performance/Sample:
+  Enabled: true
+
+Performance/ReverseEach:
+  Enabled: true
+
+Performance/RedundantBlockCall:
+  Enabled: true
+
+Performance/RedundantMatch:
+  Enabled: true
+
+Performance/RedundantMerge:
+  Enabled: true
+
+Performance/RedundantSortBy:
+  Enabled: true
+
+Performance/DoubleStartEndWith:
+  Enabled: true
+
+Performance/UnneededSort:
+  Enabled: true
+
+Performance/InefficientHashSearch:
+  Enabled: true
+
+Security/Eval:
+  Enabled: true
+
+Security/JSONLoad:
+  Enabled: true
+
+Security/MarshalLoad:
+  Enabled: true
+
+Security/YAMLLoad:
+  Enabled: true

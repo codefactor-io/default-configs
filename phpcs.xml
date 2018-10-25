@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ruleset name="PHP_CodeSniffer">
+
+  <!-- Don't hide tokenizer exceptions -->
+  <rule ref="Internal.Tokenizer.Exception">
+    <type>error</type>
+  </rule>
+
+  <rule ref="Generic.PHP.DeprecatedFunctions"/>
+  <rule ref="Generic.Commenting.Todo"/>
+  <rule ref="Generic.Commenting.Fixme"/>
+  <rule ref="Generic.CodeAnalysis.UselessOverridingMethod"/>
+  <rule ref="Generic.CodeAnalysis.UnnecessaryFinalModifier"/>
+  <rule ref="Generic.CodeAnalysis.UnconditionalIfStatement"/>
+  <rule ref="Generic.CodeAnalysis.JumbledIncrementer"/>
+  <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
+  <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
+
+  <!-- https://github.com/squizlabs/PHP_CodeSniffer/pull/1725 -->
+  <rule ref="Generic.CodeAnalysis.AssignmentInCondition"/>
+
+  <rule ref="Generic.Strings.UnnecessaryStringConcat">
+    <properties>
+      <property name="allowMultiline" value="true" />
+      <property name="error" value="false" />
+    </properties>
+  </rule>
+
+  <rule ref="Generic.PHP.BacktickOperator">
+    <type>error</type>
+  </rule>
+
+  <rule ref="MySource.PHP.EvalObjectFactory">
+    <type>error</type>
+  </rule>
+  <rule ref="Squiz.PHP.Eval">
+    <type>error</type>
+  </rule>
+  <rule ref="Squiz.PHP.NonExecutableCode"/>
+  <rule ref="Squiz.Scope.StaticThisUsage"/>
+  <rule ref="Squiz.Commenting.EmptyCatchComment"/>
+
+</ruleset>

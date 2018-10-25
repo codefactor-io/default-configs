@@ -1,0 +1,24 @@
+whitelist_rules:
+  - unused_enumerated
+  - unused_closure_parameter
+  - unneeded_break_in_switch
+  - leading_whitespace
+  - trailing_semicolon
+  - superfluous_disable_command
+  - redundant_void_return
+  - redundant_string_enum_value
+  - redundant_optional_initialization
+  - redundant_nil_coalescing
+  - private_unit_test
+  - legacy_nsgeometry_functions
+  - legacy_cggeometry_functions
+  - legacy_constructor
+  - legacy_constant
+  - no_fallthrough_only
+  - compiler_protocol_init
+  - discarded_notification_center_observer
+  - dynamic_inline
+  - empty_count
+  - mark
+  - notification_center_detachment
+  - valid_ibinspectable
