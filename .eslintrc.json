@@ -28,7 +28,12 @@
     "curly": "off",
     "dot-location": "off",
     "getter-return": "off",
-    "yoda": "off"
+    "yoda": "off",
+    "require-atomic-updates": "off",
+    "no-with": "off",
+    "no-prototype-builtins": "off",
+    "no-misleading-character-class": "off",
+    "no-async-promise-executor": "off"
   },
   "globals": {
     "ActiveXObject": true,
