@@ -33,7 +33,8 @@
     "no-with": "off",
     "no-prototype-builtins": "off",
     "no-misleading-character-class": "off",
-    "no-async-promise-executor": "off"
+    "no-async-promise-executor": "off",
+    "no-import-assign": "off"
   },
   "globals": {
     "ActiveXObject": true,
