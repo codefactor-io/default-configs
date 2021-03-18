@@ -1,4 +1,4 @@
-whitelist_rules:
+only_rules:
   - unused_enumerated
   - unused_closure_parameter
   - unneeded_break_in_switch
@@ -22,3 +22,6 @@ whitelist_rules:
   - mark
   - notification_center_detachment
   - valid_ibinspectable
+  - duplicate_imports
+  - nslocalizedstring_key
+  - unused_setter_value
