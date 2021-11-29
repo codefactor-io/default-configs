@@ -16,7 +16,7 @@ complexity:
 empty-blocks:
   active: true
   EmptyCatchBlock:
-    active: false
+    active: true
   EmptyClassBlock:
     active: true
   EmptyDefaultConstructor:
@@ -31,7 +31,7 @@ empty-blocks:
     active: true
   EmptyFunctionBlock:
     active: true
-    ignoreOverriddenFunctions: true
+    ignoreOverridden: true
   EmptyIfBlock:
     active: false
   EmptyInitBlock:
@@ -54,6 +54,7 @@ formatting:
   active: true
   NoTrailingSpaces:
     active: true
+    autoCorrect: true
 
 naming:
   active: false
@@ -101,7 +102,7 @@ style:
   ForbiddenComment:
     active: true
   TrailingWhitespace:
-    active: true
+    active: false
   UnnecessaryApply:
     active: false
   UnnecessaryInheritance:
@@ -111,4 +112,8 @@ style:
   UnnecessaryParentheses:
     active: true
   UnusedPrivateClass:
-    active: false
+    active: true
+
+coroutines:
+  RedundantSuspendModifier:
+    active: true
