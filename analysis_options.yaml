@@ -7,7 +7,6 @@ linter:
     - avoid_returning_null_for_future
     - avoid_init_to_null
     - avoid_null_checks_in_equality_operators
-    - avoid_equals_and_hash_code_on_mutable_classes
     - avoid_empty_else
     - no_duplicate_case_values
     - iterable_contains_unrelated_type
@@ -21,6 +20,10 @@ linter:
     - unnecessary_statements
     - unnecessary_null_aware_assignments
     - unnecessary_null_in_if_null_operators
+    - unnecessary_null_checks
+    - unnecessary_nullable_for_final_variable_declarations
+    - unnecessary_raw_strings
+    - unnecessary_string_interpolations
     - throw_in_finally
     - use_string_buffers
     - unrelated_type_equality_checks
