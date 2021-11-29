@@ -1,10 +1,11 @@
 AllCops:
   DisabledByDefault: true
+  UseCache: false
 
 Style/WhileUntilDo:
   Enabled: true
 
-Style/UnneededInterpolation:
+Style/RedundantInterpolation:
   Enabled: true
 
 Style/TrailingUnderscoreVariable:
@@ -18,68 +19,68 @@ Style/RedundantException:
 
 Style/RedundantConditional:
   Enabled: true
-  
+
 Style/RedundantBegin:
   Enabled: true
-  
+
 Style/OptionalArguments:
   Enabled: true
-  
+
 Style/IdenticalConditionalBranches:
   Enabled: true
 
 Style/CharacterLiteral:
   Enabled: true
-  
+
 Layout/TrailingWhitespace:
   Enabled: true
-  
+
 Lint/UselessSetterCall:
   Enabled: true
-  
+
 Lint/UselessElseWithoutRescue:
   Enabled: true
-  
-Lint/UselessComparison:
+
+Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
 # https://github.com/bbatsov/rubocop/issues/3591
 Lint/UselessAssignment:
   Enabled: true
-  
+
 Lint/UriRegexp:
   Enabled: true
-  
+
 Lint/UriEscapeUnescape:
   Enabled: true
 
 Lint/UnreachableCode:
   Enabled: true
-  
-Lint/UnneededSplatExpansion:
+
+Lint/RedundantSplatExpansion:
   Enabled: true
-  
-Lint/StringConversionInInterpolation:
+
+Lint/RedundantStringCoercion:
   Enabled: true
-  
+
 Lint/SafeNavigationChain:
   Enabled: true
-  
+
 Lint/ReturnInVoidContext:
   Enabled: true
 
 Lint/RescueType:
   Enabled: true
-  
+
 Lint/RandOne:
   Enabled: true
-  
+
 Lint/NextWithoutAccumulator:
   Enabled: true
-  
-Lint/MultipleCompare:
+
+Lint/MultipleComparison:
   Enabled: true
-  
+
 Lint/LiteralAsCondition:
   Enabled: true
 
@@ -89,7 +90,7 @@ Lint/LiteralInInterpolation:
 Lint/IneffectiveAccessModifier:
   Enabled: true
 
-Lint/HandleExceptions:
+Lint/SuppressedException:
   Enabled: true
 
 Lint/FormatParameterMismatch:
@@ -99,7 +100,7 @@ Lint/EnsureReturn:
   Enabled: true
 
 Lint/EmptyWhen:
-  Enabled: true  
+  Enabled: true
 
 Lint/EmptyEnsure:
   Enabled: true
@@ -119,7 +120,7 @@ Lint/DuplicateCaseCondition:
 Lint/DuplicateMethods:
   Enabled: true
 
-Lint/DuplicatedKey:
+Lint/DuplicateHashKey:
   Enabled: true
 
 Lint/DeprecatedClassMethods:
@@ -137,49 +138,22 @@ Lint/RedundantWithObject:
 Lint/BigDecimalNew:
   Enabled: true
 
-Performance/Casecmp:
+Lint/DisjunctiveAssignmentInConstructor:
   Enabled: true
 
-Performance/Caller:
+Lint/SafeNavigationWithEmpty:
   Enabled: true
 
-Performance/UriDefaultParser:
+Lint/FlipFlop:
   Enabled: true
 
-Performance/StringReplacement:
+Style/Sample:
   Enabled: true
 
-Performance/StartWith:
+Style/RedundantSortBy:
   Enabled: true
 
-Performance/EndWith:
-  Enabled: true  
-
-Performance/Sample:
-  Enabled: true
-
-Performance/ReverseEach:
-  Enabled: true
-
-Performance/RedundantBlockCall:
-  Enabled: true
-
-Performance/RedundantMatch:
-  Enabled: true
-
-Performance/RedundantMerge:
-  Enabled: true
-
-Performance/RedundantSortBy:
-  Enabled: true
-
-Performance/DoubleStartEndWith:
-  Enabled: true
-
-Performance/UnneededSort:
-  Enabled: true
-
-Performance/InefficientHashSearch:
+Style/RedundantSort:
   Enabled: true
 
 Security/Eval:
