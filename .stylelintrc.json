@@ -13,9 +13,6 @@
     "color-no-invalid-hex": true,
     "block-no-empty": true,
     "shorthand-property-no-redundant-values": true,
-    "no-eol-whitespace": [true, {
-        "ignore": [ "empty-lines" ]
-      }],
     "keyframe-declaration-no-important": true,
     "no-duplicate-at-import-rules": true
   }
