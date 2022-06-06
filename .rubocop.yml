@@ -38,9 +38,6 @@ Layout/TrailingWhitespace:
 Lint/UselessSetterCall:
   Enabled: true
 
-Lint/UselessElseWithoutRescue:
-  Enabled: true
-
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
@@ -167,3 +164,7 @@ Security/MarshalLoad:
 
 Security/YAMLLoad:
   Enabled: true
+
+Metrics/CyclomaticComplexity:
+  Enabled: true
+  Max: 0
