@@ -2,31 +2,13 @@ AllCops:
   DisabledByDefault: true
   UseCache: false
 
-Style/WhileUntilDo:
-  Enabled: true
-
 Style/RedundantInterpolation:
   Enabled: true
 
 Style/TrailingUnderscoreVariable:
   Enabled: true
 
-Style/RedundantFreeze:
-  Enabled: true
-
-Style/RedundantException:
-  Enabled: true
-
 Style/RedundantConditional:
-  Enabled: true
-
-Style/RedundantBegin:
-  Enabled: true
-
-Style/OptionalArguments:
-  Enabled: true
-
-Style/IdenticalConditionalBranches:
   Enabled: true
 
 Style/CharacterLiteral:
@@ -34,14 +16,11 @@ Style/CharacterLiteral:
 
 Layout/TrailingWhitespace:
   Enabled: true
-
-Lint/UselessSetterCall:
-  Enabled: true
+  AllowInHeredoc: true
 
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
-# https://github.com/bbatsov/rubocop/issues/3591
 Lint/UselessAssignment:
   Enabled: true
 
@@ -145,9 +124,6 @@ Lint/FlipFlop:
   Enabled: true
 
 Style/Sample:
-  Enabled: true
-
-Style/RedundantSortBy:
   Enabled: true
 
 Style/RedundantSort:
