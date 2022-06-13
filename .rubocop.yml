@@ -14,10 +14,6 @@ Style/RedundantConditional:
 Style/CharacterLiteral:
   Enabled: true
 
-Layout/TrailingWhitespace:
-  Enabled: true
-  AllowInHeredoc: true
-
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
