@@ -40,9 +40,5 @@
         <module name="DefaultComesLast">
             <property name="skipIfLastAndSharedWithCase" value="true"/>
         </module>
-        <module name="CyclomaticComplexity">
-          <property name="max" value="0"/>
-          <property name="switchBlockAsSingleDecisionPoint" value="false"/>
-        </module>
     </module>
 </module>
