@@ -101,6 +101,33 @@ exclude:
   - aws-vpc-no-public-ingress-acl
   - aws-vpc-no-public-ingress-sgr
   - aws-workspaces-enable-disk-encryption
+  - aws-ec2-no-secrets-in-user-data
+  - aws-cloudtrail-ensure-cloudwatch-integration
+  - aws-cloudtrail-no-public-log-access
+  - aws-cloudtrail-require-bucket-access-logging
+  - aws-ec2-add-description-to-security-group-rule
+  - aws-ec2-add-description-to-security-group
+  - aws-ec2-enable-launch-config-at-rest-encryption
+  - aws-ec2-enable-volume-encryption
+  - aws-ec2-enforce-launch-config-http-token-imds
+  - aws-ec2-no-default-vpc
+  - aws-ec2-no-excessive-port-access
+  - aws-ec2-no-public-egress-sgr
+  - aws-ec2-no-public-ingress-acl
+  - aws-ec2-no-public-ingress-sgr
+  - aws-ec2-no-public-ip-subnet
+  - aws-ec2-no-public-ip
+  - aws-ec2-no-secrets-in-launch-template-user-data
+  - aws-ec2-no-sensitive-info
+  - aws-ec2-volume-encryption-customer-key
+  - aws-emr-enable-at-rest-encryption
+  - aws-emr-enable-in-transit-encryption
+  - aws-emr-enable-local-disk-encryption
+  - aws-iam-enforce-group-mfa
+  - aws-iam-no-root-access-keys
+  - aws-iam-no-user-attached-policies
+  - aws-sns-topic-encryption-use-cmk
+  - aws-sqs-queue-encryption-use-cmk
   - azure-appservice-account-identity-registered
   - azure-appservice-authentication-enabled
   - azure-appservice-enable-http2
@@ -155,6 +182,7 @@ exclude:
   - github-actions-no-plain-text-action-secrets
   - github-repositories-private
   - github-repositories-enable_vulnerability_alerts
+  - github-branch_protections-require_signed_commits
   - general-secrets-no-plaintext-exposure
   - google-bigquery-no-public-access
   - google-compute-disk-encryption-customer-key
@@ -219,4 +247,5 @@ exclude:
   - kubernetes-network-no-public-egress
   - kubernetes-network-no-public-ingress
   - openstack-compute-no-public-access
+  - openstack-networking-describe-security-group
   - oracle-compute-no-public-ip
