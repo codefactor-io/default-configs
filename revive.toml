@@ -5,17 +5,13 @@ errorCode = 0
 warningCode = 0
 
 [rule.atomic]
-[rule.blank-imports]
 [rule.context-keys-type]
 [rule.if-return]
 [rule.identical-branches]
 [rule.unexported-return]
 [rule.indent-error-flow]
-[rule.empty-block]
 [rule.superfluous-else]
 [rule.unreachable-code]
 [rule.redefines-builtin-id]
 [rule.unnecessary-stmt]
-[rule.unused-parameter]
-[rule.unused-receiver]
 [rule.useless-break]
