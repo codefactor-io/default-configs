@@ -1,5 +1,6 @@
 ---
 rules:
+  anchors: disable
   braces: disable
   brackets: disable
   colons: disable
