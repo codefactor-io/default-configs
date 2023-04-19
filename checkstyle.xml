@@ -20,7 +20,6 @@
         </module>
         <module name="OneStatementPerLine"/>
         <module name="NoFinalizer"/>
-        <module name="OverloadMethodsDeclarationOrder"/>
         <module name="EmptyCatchBlock">
             <property name="exceptionVariableName" value="expected|ignore"/>
         </module>
