@@ -21,8 +21,8 @@
     }
   },
   "cyclomatic_complexity": {
-    "level": "ignore",
-    "value": 10
+    "level": "warn",
+    "value": 0
   },
   "duplicate_key": {
     "level": "warn"
@@ -131,5 +131,8 @@
   },
   "transform_messes_up_line_numbers": {
     "level": "ignore"
+  },
+  "missing_parseint_radix": {
+    "level": "warn"
   }
 }
