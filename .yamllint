@@ -1,8 +1,20 @@
 ---
 rules:
   anchors: disable
-  braces: disable
-  brackets: disable
+  braces:
+    level: warning
+    forbid: false
+    min-spaces-inside: 0
+    max-spaces-inside: 1
+    min-spaces-inside-empty: -1
+    max-spaces-inside-empty: 9999
+  brackets:
+    level: warning
+    forbid: false
+    min-spaces-inside: 0
+    max-spaces-inside: 1
+    min-spaces-inside-empty: -1
+    max-spaces-inside-empty: 9999  
   colons: disable
   commas: disable
   comments: disable
@@ -20,7 +32,6 @@ rules:
   new-line-at-end-of-file: disable
   new-lines: disable
   octal-values: disable
-  trailing-spaces:
-    level: warning
+  trailing-spaces: disable
   truthy: disable
   quoted-strings: disable
