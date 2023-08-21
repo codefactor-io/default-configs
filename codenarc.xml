@@ -50,8 +50,6 @@
   <rule class='org.codenarc.rule.convention.VectorIsObsoleteRule'/>
   <rule class='org.codenarc.rule.convention.HashtableIsObsoleteRule'/>
 
-  <rule class='org.codenarc.rule.formatting.TrailingWhitespaceRule'/>
-
   <rule class='org.codenarc.rule.imports.DuplicateImportRule'/>
   <rule class='org.codenarc.rule.imports.UnnecessaryGroovyImportRule'/>
   <rule class='org.codenarc.rule.imports.ImportFromSunPackagesRule'/>
@@ -69,6 +67,4 @@
     <property name='regex' value='((\/\/(.*? )?)(?i)(TODO|FIXME)( |$|\r?\n))|(\/\*([\s\S]*?)(?i)(TODO|FIXME)([\s\S]*?)\*\/)'/>
     <property name='violationMessage' value='Resolve unexpected comment.'/>
   </rule>
-
-  <rule class='org.codenarc.rule.naming.ClassNameSameAsFilenameRule'/>
 </ruleset>
