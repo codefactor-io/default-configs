@@ -3,6 +3,10 @@ MinLineCount: 10
 
 # files/patterns to exclude
 IgnorePatterns:
-  - file_name_example.css
-  - src\file_name_example.js
-  - dist\**
+  - coverage\**
+  - scripts\**
+  - node_modules\**
+  - test\**
+  - loaderio\**
+  - .husky\**
+  - *.json
