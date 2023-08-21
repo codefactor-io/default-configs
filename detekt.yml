@@ -51,10 +51,7 @@ exceptions:
     active: true
 
 formatting:
-  active: true
-  NoTrailingSpaces:
-    active: true
-    autoCorrect: true
+  active: false
 
 naming:
   active: false
