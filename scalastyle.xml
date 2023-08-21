@@ -1,9 +1,4 @@
 <scalastyle commentFilter="enabled">
-  <check level="warning" class="org.scalastyle.file.WhitespaceEndOfLineChecker" enabled="true">
-    <parameters>
-      <parameter name="ignoreWhitespaceLines">true</parameter>
-    </parameters>
-  </check>
   <check level="warning" class="org.scalastyle.scalariform.UppercaseLChecker" enabled="true"></check>
   <check level="warning" class="org.scalastyle.scalariform.TodoCommentChecker" enabled="true">
     <parameters>
@@ -23,4 +18,10 @@
   <check level="warning" class="org.scalastyle.scalariform.EmptyClassChecker" enabled="true"></check>
   <check level="warning" class="org.scalastyle.scalariform.DeprecatedJavaChecker" enabled="true"></check>
   <check level="warning" class="org.scalastyle.scalariform.CovariantEqualsChecker" enabled="true"></check>
+  <check level="warning" class="org.scalastyle.scalariform.CyclomaticComplexityChecker" enabled="true">
+    <parameters>
+      <parameter name="maximum"><![CDATA[0]]></parameter>
+      <parameter name="countCases"><![CDATA[true]]></parameter>
+    </parameters>
+  </check>  
 </scalastyle>
