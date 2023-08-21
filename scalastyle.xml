@@ -18,10 +18,4 @@
   <check level="warning" class="org.scalastyle.scalariform.EmptyClassChecker" enabled="true"></check>
   <check level="warning" class="org.scalastyle.scalariform.DeprecatedJavaChecker" enabled="true"></check>
   <check level="warning" class="org.scalastyle.scalariform.CovariantEqualsChecker" enabled="true"></check>
-  <check level="warning" class="org.scalastyle.scalariform.CyclomaticComplexityChecker" enabled="true">
-    <parameters>
-      <parameter name="maximum"><![CDATA[0]]></parameter>
-      <parameter name="countCases"><![CDATA[true]]></parameter>
-    </parameters>
-  </check>  
 </scalastyle>
