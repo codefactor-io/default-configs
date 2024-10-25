@@ -1,7 +1,6 @@
 {
   "rules": {
     "no-invalid-double-slash-comments": true,
-    "no-extra-semicolons": true,
     "no-duplicate-selectors": true,
     "font-family-no-duplicate-names": true,
     "declaration-block-no-shorthand-property-overrides": true,
