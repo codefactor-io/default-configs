@@ -1,0 +1,29 @@
+linter:
+  rules:
+    - avoid_slow_async_io
+    - avoid_unnecessary_containers
+    - avoid_return_types_on_setters
+    - avoid_init_to_null
+    - avoid_null_checks_in_equality_operators
+    - avoid_empty_else
+    - no_duplicate_case_values
+    - empty_catches
+    - hash_and_equals
+    - cancel_subscriptions
+    - close_sinks
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - prefer_contains
+    - unnecessary_overrides
+    - unnecessary_statements
+    - unnecessary_null_aware_assignments
+    - unnecessary_null_in_if_null_operators
+    - unnecessary_null_checks
+    - unnecessary_nullable_for_final_variable_declarations
+    - unnecessary_raw_strings
+    - unnecessary_string_interpolations
+    - throw_in_finally
+    - no_wildcard_variable_uses
+    - use_string_buffers
+    - unrelated_type_equality_checks
+    - unsafe_html

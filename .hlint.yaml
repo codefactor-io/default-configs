@@ -1,0 +1,9 @@
+- ignore: { }
+
+- error: {name: "Use readTVarIO"}
+- error: {name: "Use newTVarIO"}
+- error: {name: "Use newTMVarIO"}
+- error: {name: "Use newEmptyTMVarIO"}
+
+- warning: {name: "Unused LANGUAGE pragma"}
+- warning: {name: "Redundant flip"}

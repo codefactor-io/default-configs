@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE module PUBLIC
+          "-//Puppy Crawl//DTD Check Configuration 1.3//EN"
+          "http://checkstyle.sourceforge.net/dtds/configuration_1_3.dtd">
+
+<!--
+    Checkstyle is highly configurable. Be sure to read the documentation at http://checkstyle.sf.net 
+ -->
+
+<module name = "Checker">
+    <property name="charset" value="UTF-8"/>
+    <property name="severity" value="warning"/>
+    <property name="fileExtensions" value="java, properties, xml"/>
+    <module name="TreeWalker">
+        <module name="OuterTypeFilename"/>
+        <module name="OneTopLevelClass"/>
+        <module name="EmptyBlock">
+            <property name="option" value="TEXT"/>
+            <property name="tokens" value="LITERAL_TRY, LITERAL_FINALLY, LITERAL_IF, LITERAL_ELSE, LITERAL_SWITCH"/>
+        </module>
+        <module name="OneStatementPerLine"/>
+        <module name="NoFinalizer"/>
+        <module name="EmptyCatchBlock">
+            <property name="exceptionVariableName" value="expected|ignore"/>
+        </module>
+        <module name="UpperEll"/>
+      
+        <!-- Rules from Sun's Java Style  -->
+        <module name="IllegalImport"/>
+        <module name="EmptyStatement"/>
+        <module name="EqualsHashCode"/>
+        <module name="SimplifyBooleanReturn"/>
+        <module name="TodoComment">
+            <property name="format" value="(TODO)|(FIXME)"/>
+            <message key="todo.match" value="Resolve unexpected comment."/>
+        </module>
+       
+        <!-- Custom  -->
+        <module name="DefaultComesLast">
+            <property name="skipIfLastAndSharedWithCase" value="true"/>
+        </module>
+    </module>
+</module>

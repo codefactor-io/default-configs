@@ -1,0 +1,20 @@
+@{
+    IncludeRules=@('PSAvoidAssignmentToAutomaticVariable',
+                'PSUseToExportFieldsInManifest',
+                'PSUseSupportsShouldProcess',
+                'PSUsePSCredentialType',
+                'PSReservedParams',
+                'PSReservedCmdletChar',
+                'PSMisleadingBacktick',
+                'PSDSCUseIdenticalParametersForDSC',
+                'PSAvoidUsingUsernameAndPasswordParams',
+                'PSAvoidUsingDeprecatedManifestFields',
+                'PSAvoidUsingConvertToSecureStringWithPlainText',
+                'PSAvoidUsingWriteHost',
+                'PSAvoidUsingEmptyCatchBlock',
+                'PSAvoidGlobalVars',
+                'PSAvoidUsingPlainTextForPassword',
+                'PSAvoidUsingWMICmdlet',
+                'PSAvoidDefaultValueForMandatoryParameter',
+                'PSAvoidUsingComputerNameHardcoded')
+}

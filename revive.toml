@@ -1,0 +1,17 @@
+ignoreGeneratedHeader = true
+severity = "warning"
+confidence = 0.8
+errorCode = 0
+warningCode = 0
+
+[rule.atomic]
+[rule.context-keys-type]
+[rule.if-return]
+[rule.identical-branches]
+[rule.unexported-return]
+[rule.indent-error-flow]
+[rule.superfluous-else]
+[rule.unreachable-code]
+[rule.redefines-builtin-id]
+[rule.unnecessary-stmt]
+[rule.useless-break]
