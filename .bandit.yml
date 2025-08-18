@@ -10,7 +10,7 @@
 tests:
 
 # (optional) list skipped test IDs here, eg '[B101, B406]':
-skips: [B101, B102, B105, B106, B107, B113, B202, B401, B402, B403, B404, B405, B406, B407, B408, B409, B410, B413, B307, B311, B507, B603, B608, B610, B611, B614, B703]
+skips: [B101, B102, B105, B106, B107, B113, B202, B401, B402, B403, B404, B405, B406, B407, B408, B409, B413, B307, B311, B507, B603, B608, B610, B611, B614, B703]
 
 ### (optional) plugin settings - some test plugins require configuration data
 ### that may be given here, per-plugin. All bandit test plugins have a built in
