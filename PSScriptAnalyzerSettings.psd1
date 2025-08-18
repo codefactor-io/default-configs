@@ -10,11 +10,11 @@
                 'PSAvoidUsingUsernameAndPasswordParams',
                 'PSAvoidUsingDeprecatedManifestFields',
                 'PSAvoidUsingConvertToSecureStringWithPlainText',
-                'PSAvoidUsingWriteHost',
                 'PSAvoidUsingEmptyCatchBlock',
                 'PSAvoidGlobalVars',
                 'PSAvoidUsingPlainTextForPassword',
                 'PSAvoidUsingWMICmdlet',
                 'PSAvoidDefaultValueForMandatoryParameter',
+                'AvoidUsingBrokenHashAlgorithms',
                 'PSAvoidUsingComputerNameHardcoded')
 }
