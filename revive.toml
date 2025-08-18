@@ -6,7 +6,6 @@ warningCode = 0
 
 [rule.atomic]
 [rule.context-keys-type]
-[rule.if-return]
 [rule.identical-branches]
 [rule.unexported-return]
 [rule.indent-error-flow]
@@ -15,3 +14,4 @@ warningCode = 0
 [rule.redefines-builtin-id]
 [rule.unnecessary-stmt]
 [rule.useless-break]
+[rule.warning-comment]
