@@ -71,6 +71,7 @@
           {
             "vars": "local",
             "args": "after-used",
+            "caughtErrors": "none",
             "ignoreRestSiblings": false
           }
         ],
@@ -89,13 +90,17 @@
     },
     {
       "files": [ "**/*.svelte" ],
-      "processor": "svelte3/svelte3",
-      "plugins": [ "svelte3" ],
-      "extends": "eslint:recommended",
-      "parserOptions": {
-        "sourceType": "module"
-      },
+      "parser": "svelte-eslint-parser",
+      "extends": [ "eslint:recommended", "plugin:svelte/recommended" ],
       "rules": {
+        "svelte/no-at-html-tags": "off",
+        "svelte/no-target-blank": "off",
+        "svelte/valid-compile": [
+          "error",
+          {
+            "ignoreWarnings": true
+          }
+        ],
         "no-undef": "off",
         "no-fallthrough": "off",
         "no-mixed-spaces-and-tabs": "off",
@@ -116,6 +121,7 @@
           {
             "vars": "local",
             "args": "after-used",
+            "caughtErrors": "none",
             "ignoreRestSiblings": false
           }
         ]
@@ -125,7 +131,16 @@
       "files": [ "**/*.mdx" ],
       "extends": [ "plugin:mdx/recommended" ],
       "rules": {
-        "prettier/prettier" : "off"
+        "prettier/prettier": "off"
+      }
+    },
+    {
+      "files": [ "**/*.astro" ],
+      "extends": [ "plugin:astro/recommended" ],
+      "parser": "astro-eslint-parser",
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "extraFileExtensions": [ ".astro" ]
       }
     }
   ],
