@@ -9,7 +9,7 @@ comments:
 
 complexity:
   active: true
-  ComplexMethod:
+  CognitiveComplexMethod:
     active: true
     threshold: 0
 
@@ -18,7 +18,7 @@ empty-blocks:
   EmptyCatchBlock:
     active: true
   EmptyClassBlock:
-    active: true
+    active: false
   EmptyDefaultConstructor:
     active: false
   EmptyDoWhileBlock:
@@ -51,7 +51,10 @@ exceptions:
     active: true
 
 formatting:
-  active: false
+  active: true
+  NoEmptyClassBody:
+    active: true
+    autoCorrect: true
 
 naming:
   active: false
@@ -71,8 +74,6 @@ performance:
 
 potential-bugs:
   active: true
-  DuplicateCaseInWhenExpression:
-    active: true
   EqualsAlwaysReturnsTrueOrFalse:
     active: true
   EqualsWithHashCodeExist:
@@ -108,6 +109,7 @@ style:
     active: true
   UnnecessaryParentheses:
     active: true
+    allowForUnclearPrecedence : true
   UnusedPrivateClass:
     active: true
 
