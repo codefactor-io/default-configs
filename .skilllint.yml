@@ -1,0 +1,40 @@
+# All rules run by default. To skip rules, list their IDs:
+# skips:
+#   - LP4
+#   - RP3
+skips: []
+
+# Available rules:
+# AST1   Python code calls exec()
+# AST2   Python code calls eval()
+# AST3   Python imports a module by a computed name
+# AST5   Python runs a shell command directly
+# AST6   Python compiles code at runtime
+# AST8   Python runs code it just decoded or downloaded
+# AST9   Python reaches exec or system indirectly
+# AST10  Python loads data with an unsafe deserializer
+# TT1    Untrusted input goes straight into a dangerous call
+# TT2    Untrusted input reaches a dangerous call through a variable
+# TT3    Credentials are sent over the network
+# TT4    Local files are sent over the network
+# TT5    Downloaded or user input gets executed
+# TT6    Downloaded, user or file data gets deserialized
+# YR2    A file looks like a webshell
+# YR3    A file looks like a crypto miner
+# BH1    The skill ships hooks that run on lifecycle events
+# BH2    A shipped hook sends sensitive data to a remote server
+# BH3    Shipped settings grant broad permissions
+# BH4    Shipped settings run helper commands
+# TP1    Skill metadata hides content
+# TP2    Skill names use look-alike or invisible characters
+# LP2    The skill declares a wildcard permission
+# LP4    The skill declares a permission its code never uses
+# RP3    The skill version is not pinned
+# SC5    A dependency is abandoned
+# SC6    A dependency name looks like a typo of a popular package
+# SC8    Compiled Python bytecode is shipped with the skill
+# SC9    An executable is hidden in another file
+# AE2    A file's extension doesn't match its content
+# AE3    A text file contains NUL bytes
+# AE4    Look-alike or invisible characters disguise text
+# AE5    An instruction file is too large to check fully
