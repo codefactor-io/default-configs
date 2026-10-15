@@ -1,0 +1,32 @@
+{
+  "plugins": [ "typescript", "unicorn", "oxc"],
+  "env": {
+    "browser": true
+  },
+  "settings": {},
+  "rules": {
+    "eslint/no-unused-vars": "off",
+    "eslint/no-async-promise-executor": "off",
+    "eslint/no-useless-rename": "off",
+    "eslint/eslint/no-undef": "off",
+    "eslint/no-with": "off",
+    "eslint/no-import-assign": "off",
+    "eslint/no-sparse-arrays": "off",
+    "eslint/no-useless-escape": "off",
+    "eslint/no-eval": "off",
+    "eslint/no-control-regex": "off",
+    "eslint/no-cond-assign": "off",
+    "eslint/no-irregular-whitespace": "off",
+    "eslint/no-useless-backreference": "off",
+    "eslint/no-unassigned-vars": "off",
+    "eslint/no-empty": ["error", { "allowEmptyCatch": true }],
+    "typescript/prefer-as-const": "off",
+    "typescript/triple-slash-reference": "off",
+    "typescript/no-this-alias": "off",
+    "unicorn/prefer-set-size": "off",
+    "unicorn/prefer-string-starts-ends-with": "off",
+    "unicorn/no-empty-file": "off",
+    "unicorn/no-new-array": "off",
+    "no-warning-comments": ["warn", { "terms": ["todo", "fixme", "xxx"], "location": "start"}]
+  }
+}

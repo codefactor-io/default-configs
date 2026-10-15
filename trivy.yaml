@@ -1,0 +1,8 @@
+ignorefile: .trivyignore
+ignore-policy:
+exit-code: 0
+exit-on-eol: 0
+output:
+severity:
+  - HIGH
+  - CRITICAL

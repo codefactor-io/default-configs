@@ -1,8 +1,19 @@
-# duplication threshold [10 - 100]
-MinLineCount: 10
+# duplication threshold [20 - 100]
+MinLineCount: 20
 
 # files/patterns to exclude
 IgnorePatterns:
-  - file_name_example.css
-  - src\file_name_example.js
-  - dist\**
+  - "**/test/**"
+  - "**/tests/**"
+  - "**/unittests/**"
+  - "**/*.unittest*/**"
+  - "**/spec/**"
+  - "**/*.spec.*"
+  - "**/__tests__/**"
+  - "**/mocks/**"
+  - "**/schema.*"
+  - "**/migrations/**"
+  - "**/migration/**"
+  - "**/migrate/**"
+  - "**/dist/**"
+  
